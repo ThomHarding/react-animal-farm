@@ -1,0 +1,19 @@
+.animal-card {
+  width: 200px;
+  background-color: var(--color2);
+  margin: 10px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  color: white;
+  font-family: 'Libre Bodoni', serif;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: black;
+}
+
+.animal-card img {
+  width: 100px;
+}
