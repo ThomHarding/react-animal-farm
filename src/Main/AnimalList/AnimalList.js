@@ -1,11 +1,12 @@
 import './AnimalList.css';
+import Animal from './Animal/Animal';
 
-export default function AnimalList({ animal }) {
+export default function AnimalList({ animals }) {
   return (
-    <div className='animal-card'>
-      <img src={`./${animal.type}.svg`}/>
-      <p>{animal.name} the {animal.type}</p>
-      <p>{animal.says}</p>
-    </div>  
+    animals.map((animal) => 
+      <Animal
+        key={animal.name}
+        animal={animal} />
+    )
   );
 }

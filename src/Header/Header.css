@@ -1,6 +1,5 @@
 header {
   color: var(--color1);
-  text-transform: uppercase;
   font-weight: bold;
   height: 40px;
   background-color: var(--color4);
@@ -10,4 +9,5 @@ header {
   color: white;
   font-family: 'Libre Bodoni', serif;
   -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: black;
 }
